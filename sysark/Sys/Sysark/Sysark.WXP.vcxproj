@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="WXP checked (PREfast)|Win32">
+      <Configuration>WXP checked (PREfast)</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="WXP checked|Win32">
+      <Configuration>WXP checked</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="WXP free|Win32">
+      <Configuration>WXP free</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="WXP2K checked (PREfast)|Win32">
+      <Configuration>WXP2K checked (PREfast)</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="WXP2K checked|Win32">
+      <Configuration>WXP2K checked</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="WXP2K free|Win32">
+      <Configuration>WXP2K free</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="WXP64 checked (PREfast)|Win32">
+      <Configuration>WXP64 checked (PREfast)</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="WXP64 checked|Win32">
+      <Configuration>WXP64 checked</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="WXP64 free|Win32">
+      <Configuration>WXP64 free</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4F6153C4-E52B-4377-8992-A5BED2337288}</ProjectGuid>
+    <RootNamespace>Sysark.WXP</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WXP2K checked (PREfast)|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WXP2K checked|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WXP2K free|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WXP64 checked (PREfast)|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WXP64 checked|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WXP64 free|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WXP checked (PREfast)|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WXP checked|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WXP free|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='WXP2K checked (PREfast)|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="Sysark.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='WXP2K checked|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="Sysark.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='WXP2K free|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="Sysark.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='WXP64 checked (PREfast)|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="Sysark.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='WXP64 checked|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="Sysark.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='WXP64 free|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="Sysark.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='WXP checked (PREfast)|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="Sysark.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='WXP checked|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="Sysark.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='WXP free|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="Sysark.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>16.0.32002.118</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WXP free|Win32'">
+    <IntDir>.\</IntDir>
+    <NMakeBuildCommandLine>$(DDKBUILD_PATH) -WXP free .</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(DDKBUILD_PATH) -WXP free . -cZ</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine />
+    <NMakeOutput />
+    <NMakePreprocessorDefinitions>DBG=0;WINVER=0x0500;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WXP checked|Win32'">
+    <IntDir>.\</IntDir>
+    <NMakeBuildCommandLine>$(DDKBUILD_PATH) -WXP checked .</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(DDKBUILD_PATH) -WXP checked . -cZ</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine />
+    <NMakeOutput />
+    <NMakePreprocessorDefinitions>DBG=1;WINVER=0x0500;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WXP checked (PREfast)|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>.\</IntDir>
+    <NMakeBuildCommandLine>$(DDKBUILD_PATH) -WXP checked . -cZ -prefast</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(DDKBUILD_PATH) -WXP checked . -cZ -prefast</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine />
+    <NMakeOutput />
+    <NMakePreprocessorDefinitions>DBG=1;WINVER=0x0500;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WXP64 free|Win32'">
+    <IntDir>.\</IntDir>
+    <NMakeBuildCommandLine>$(DDKBUILD_PATH) -WXP64 free .</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(DDKBUILD_PATH) -WXP64 free . -cZ</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine />
+    <NMakeOutput />
+    <NMakePreprocessorDefinitions>DBG=0;WINVER=0x0500;_WIN64;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WXP64 checked|Win32'">
+    <IntDir>.\</IntDir>
+    <NMakeBuildCommandLine>$(DDKBUILD_PATH) -WXP64 checked .</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(DDKBUILD_PATH) -WXP64 checked . -cZ</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine />
+    <NMakeOutput />
+    <NMakePreprocessorDefinitions>DBG=1;WINVER=0x0500;_WIN64;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WXP64 checked (PREfast)|Win32'">
+    <IntDir>.\</IntDir>
+    <NMakeBuildCommandLine>$(DDKBUILD_PATH) -WXP64 checked . -cZ -prefast</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(DDKBUILD_PATH) -WXP64 checked . -cZ -prefast</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine />
+    <NMakeOutput />
+    <NMakePreprocessorDefinitions>DBG=1;WINVER=0x0500;_WIN64;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WXP2K free|Win32'">
+    <IntDir>.\</IntDir>
+    <NMakeBuildCommandLine>$(DDKBUILD_PATH) -WXP2K free .</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(DDKBUILD_PATH) -WXP2K free . -cZ</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine />
+    <NMakeOutput />
+    <NMakePreprocessorDefinitions>DBG=0;WINVER=0x0501;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WXP2K checked|Win32'">
+    <IntDir>.\</IntDir>
+    <NMakeBuildCommandLine>$(DDKBUILD_PATH) -WXP2K checked .</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(DDKBUILD_PATH) -WXP2K checked . -cZ</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine />
+    <NMakeOutput />
+    <NMakePreprocessorDefinitions>DBG=1;WINVER=0x0501;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WXP2K checked (PREfast)|Win32'">
+    <IntDir>.\</IntDir>
+    <NMakeBuildCommandLine>$(DDKBUILD_PATH) -WXP2K checked . -cZ -prefast</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(DDKBUILD_PATH) -WXP2K checked . -cZ -prefast</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine />
+    <NMakeOutput />
+    <NMakePreprocessorDefinitions>DBG=1;WINVER=0x0501;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="DataDef.cpp" />
+    <ClCompile Include="DriverModule.cpp" />
+    <ClCompile Include="File.cpp" />
+    <ClCompile Include="Process.cpp" />
+    <ClCompile Include="ProcessModule.cpp" />
+    <ClCompile Include="ProcessThread.cpp" />
+    <ClCompile Include="Protection.cpp" />
+    <ClCompile Include="Services.cpp" />
+    <ClCompile Include="ShadowSSDT.cpp" />
+    <ClCompile Include="SSDT.cpp" />
+    <ClCompile Include="Startup.cpp" />
+    <ClCompile Include="Sysark.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DataDef.h" />
+    <ClInclude Include="DriverModule.h" />
+    <ClInclude Include="File.h" />
+    <ClInclude Include="Ioctrls.h" />
+    <ClInclude Include="Process.h" />
+    <ClInclude Include="ProcessModule.h" />
+    <ClInclude Include="ProcessThread.h" />
+    <ClInclude Include="Protection.h" />
+    <ClInclude Include="Services.h" />
+    <ClInclude Include="ShadowSSDT.h" />
+    <ClInclude Include="SSDT.h" />
+    <ClInclude Include="Startup.h" />
+    <ClInclude Include="Sysark.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ddkbldenv.cmd" />
+    <None Include="ddkpostbld.cmd" />
+    <None Include="ddkprebld.cmd" />
+    <None Include="makefile" />
+    <None Include="sources" />
+    <None Include="Sysark.vsprops" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
